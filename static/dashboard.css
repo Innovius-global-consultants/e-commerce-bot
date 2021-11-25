@@ -1,0 +1,120 @@
+body {
+    background-image: url('/static/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#logo{
+    width:17%;
+    margin-left: -50px;
+    margin-top: -46px;
+}
+
+h2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40px;
+    margin-top:-60px;
+    color:honeydew;
+}
+h3{margin-top:200px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:honeydew;
+}
+.container{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width:70%;
+margin-top: 100px;
+padding-top:40px;
+padding-bottom: 40px;
+}
+#meet_id{
+    margin-top:80px;
+    margin-left: 650px;
+    border-radius: 10px;
+    width:15%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:mediumblue;
+}
+#submit_btn{
+    margin-left: 740px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(235, 22, 22);
+
+}
+#msg{
+text-align: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top:80px;
+color:honeydew;
+
+}
+img.image-fluid{
+    margin-top:-30px;
+}
+.desc{
+    margin-left: 270px;
+    margin-top: -180px;
+    color:honeydew;
+}
+h4{
+    color:rgb(31, 218, 177);
+}
+button.btn.btn-outline-primary{
+    width:20%;
+    margin-left: 300px;
+    color:gold;
+}
+input.razorpay-payment-button{
+    
+    margin-left: 620px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:royalblue;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding:5px;
+}
+h5{
+    text-align: center;
+    color: rgb(31, 187, 52);
+    margin-top: 200px;
+    font-size: large;
+    font-family: sans-serif;
+    
+}
+#msg2{
+    color: rgba(255, 0, 0, 0.808);
+    margin-top: 200px;
+}
+.pay-btn{
+    margin-left: 590px;
+    margin-top: 150px;
+    color:royalblue;
+    background-color: rgb(236, 236, 236);
+    border: 2px solid lightseagreen;
+    font-family: sans-serif;
+    border-radius: 5px;
+    width: 8%;
+    cursor: pointer;
+}
+.bck-btn{
+    margin-left: 630px;
+    margin-top: 50px;
+    color:rgb(98, 131, 228);
+    background-color: rgb(236, 236, 236);
+    border: 2px solid lightseagreen;
+    font-family: sans-serif;
+    border-radius: 5px;
+    width: 8%;
+    cursor: pointer;
+}

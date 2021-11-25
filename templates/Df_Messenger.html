@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--<link href="{{ url_for('static', filename='stylesheets/ChatBot.css') }}" />-->
+    <!--<link href="{{ url_for('static', filename='ChatBot.css') }}" />-->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'ChatBot.css')}}">
+    <title> ClinicalFirst ChatBot</title>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+        <df-messenger
+          df-cx="true"
+          intent="Welcome"
+          expand="true"
+          location="us-central1"
+          chat-title="EcommerceChatBot"
+          agent-id="de951563-a820-400e-891b-b0b7fc26fd1a"
+          language-code="en"
+        ></df-messenger>
+        <style>
+  df-messenger {
+   --df-messenger-bot-message: darkcyan;
+   --df-messenger-button-titlebar-color: darkcyan;
+   --df-messenger-chat-background-color: darkgray;
+   --df-messenger-font-color: black;
+   --df-messenger-send-icon: darkcyan;
+   --df-messenger-user-message: orange;
+  }
+</style>
+</head>
+<body>
+    <img src="static/logo.jpg" alt="logo" id="Logo">
+    <h1>WELCOME TO CLINICALFIRST</h1>
+   <div class="container"><p id="para">Welcome to our ClinicalFirst page, Where you can use our services <br> such as Consulting a Doctor, Getting Diagnosed, <br>
+        Buying Mediciens or Get Emergency services. <br> Our ChatBot Assistant will provide the services you want to use. By <br>
+        using Google's Intelligence technology it can understand your quires. <br> This Application will be available for both IOS and Android devices.</p>
+    </div>
+</body>
+</html>

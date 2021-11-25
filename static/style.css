@@ -1,0 +1,63 @@
+.main{
+    margin-left: 550px;
+}
+.fields{
+    margin-left: 600px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-family: sans-serif;
+    color:lightseagreen;
+}
+#name{
+    color:rgb(14, 139, 139);
+}
+input#pnum{
+    width: 30%;
+    border-radius: 20px;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+input#otp{
+    width: 30%;
+    border-radius: 20px;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+input#btn{
+    margin-left: 190px;
+    width: 10%;
+    border-radius: 10px;
+    border: 2px solid;
+    cursor:pointer;
+    background-color:rgb(14, 139, 139) ;
+    color: gold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+a:link, a:visited {
+    background-color: #158a76;
+    color: gold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 700px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-family: sans-serif;
+
+  }
+  #existing{
+      margin-right: 15px;
+      padding-top: 30px;
+      text-align: center;
+      margin-bottom: -40px;
+      font-family: sans-serif;
+      color: #158a76;
+  }

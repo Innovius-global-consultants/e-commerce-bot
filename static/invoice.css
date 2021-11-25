@@ -1,0 +1,101 @@
+#img{
+    width: 40%;
+    margin-left: 350px;
+    background-size: cover;
+    opacity:0.3;
+   margin-top: -980px;
+   margin-bottom:100px;
+}
+
+.logo{
+    float: left;
+    width: 8%;
+    margin-left:-20px;
+    margin-top:-8px;
+}
+h4{
+    font-family: sans-serif;
+    font-size:1.0em;
+}
+p{
+    margin: -15px;
+    font-family: sans-serif;
+    font-size:0.75em;
+}
+#particulars{
+    margin-top:55px;
+    margin-left: 40px;
+}
+#main{
+    font-size:1.2em;
+    font-family: sans-serif;
+}
+#amount{
+    margin-top:55px;
+    margin-left: 40px;
+}
+#rupee{
+    font-size:1.3em;
+}
+#issued{
+    margin-top:55px;
+    margin-left: 40px;
+}
+#date{
+    text-align:center;
+}
+#name{
+    margin-top:33px;
+    margin-left: 40px;
+}
+#desc{
+    margin-top:55px;
+    margin-left: 40px;
+}
+#desc-text{
+    padding-left:190px;
+}
+#col-amt{
+    padding-left:840px;
+}
+th{
+    font-size:0.70em;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    background-color: rgba(172, 172, 172, 0.822);
+    border:  solid #dddddd;
+    text-align: left;
+}
+#total{
+    font-size:0.90em;
+    text-align:center;
+    margin-top:22px;
+    margin-left: 200px;
+}
+#amt{
+    text-align: right;
+    margin-right: 135px;
+}
+#blue{
+    color:darkturquoise;
+    text-align: center;
+    margin-top:33px;
+    margin-left: 165px;
+
+}
+#rp{
+    color:darkturquoise;
+    text-align: right;
+    margin-right: 140px;
+}
+#cf{
+    text-align: center;
+    margin-top:100px;
+    font-size:0.80em;
+    color: dimgray;
+}
+#footimg{
+    float: right;
+    margin-right: 70px;
+    margin-top:-70px;
+}

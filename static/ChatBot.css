@@ -1,0 +1,30 @@
+body{
+    background-image: url(background.png);
+    background-size: cover;
+}
+#Logo{
+      margin-left: -6px;
+      margin-top: -8px;
+      width:7%;
+}
+h1{
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgba(34, 155, 135, 0.801);
+    margin-top: -60px;
+    margin-left:-90px;
+}
+
+#para{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:whitesmoke;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.2em;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
