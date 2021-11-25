@@ -1,1 +1,3 @@
 # e-commerce-bot
+Successfully Uploaded the files with python libraries.
+Process of uplaoding: 1. Download Github desktop (if you don't have), 2. Clone your repository from the github website, 3. Check your files in the file explorer, 4 Add .gitattributes file, 5. Copy paste the files from the file to the cloned file, 6. finally commit the files github desktop and reload your github website.......
